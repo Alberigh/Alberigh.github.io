@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafecitoStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/64abf1753e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+    <!--Logo Pagina-->
+    <header>
+        <div class="logo">
+            <li id="logo"><img src="./imagenes/logo cafecito.png" height="100px" alt="Logo CaféCito"></li>
+                <a id="empresa" href=""><h2 id="empresa">CafecitoStore</h2></a>
+        </div>
+        <!--Fin Logo Pagina-->
+        
+        <!--Barra de busqueda-->
+        <nav>
+            <ul>
+                <li><input type="text" placeholder="Buscar..."></li>
+                <li><button id="busqueda"><img src="./imagenes/busqueda (1).png" height="23px" alt=""></i></button></li>
+                <li><a href="" target="_blank" id="carrito"><i class="fa-solid fa-cart-shopping" ></i></a></li>
+                <li><a href="" target="_blank" id="usuario"><i class="fa-solid fa-user"></i></i></a></li>
+            </ul>
+        </nav>
+        <!--FIN Barra de busqueda-->
+    </header>
+    
+    <!--Seccion de productos-->
+    <article>
+    <section>
+        <h2 id="PRODUCTOS">PRODUCTOS</h2>
+    </section>
+    <section id="portfolio">
+        <div class="filaventas">
+            <div class="filaventas">
+                <div class="card">
+                    <video controls width="250">
+                        <source src="./imagenes/video cafe.mp4" type="video/mp4">
+                    </video>
+                    <h3>CafecitoStore</h3>
+                    <h4>welcome</h4>
+                    <div class="sep"></div>
+                    <p>Lorem ipsum dolor, sit amet consectetdipisicingelit.Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="masinfo"><button type="button">MAS INFO</button></div>
+                </div>
+    <!--FIN Seccion de productos-->
+            
+            <!--Tarjetas-->
+            <div class="card">
+                <img src="./imagenes/Americano-ChristinaDibernardo-Unsplash.jpg" height="166px" alt="producto 1">
+                <h3>Clasic Americano</h3>
+                <h4>2.99$</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">COMPRAR</button></div>
+            </div>
+            <div class="card">
+                <img src="./imagenes/Caffe-moka.jpg" height="167px" alt="producto 2">
+                <h3>Moka Caffe</h3>
+                <h4>3.50$</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">COMPRAR</button></div>
+            </div>
+            <div class="card">
+                <img src="./imagenes/coffee-770272_1920-e1574653300680.jpg" height="167px" alt="producto 3">
+                <h3>Latte-Vainilla</h3>
+                <h4>4.99$</h4>
+                <div class="sep"></div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <div class="masinfo"><button type="button">COMPRAR</button></div>
+            </div>
+        </div>
+    </section>
+    </article>
+    <!--FIN Seccion de productos-->
+    
+    <!--Formulario-->
+    <section id="contactar">
+        <h2 id="contac">Contactanos</h2>
+        <h3 id="ayuda">¿En que podemos ayudarte?</h3>
+        <form action="#">
+            <div class="itemform">
+                <label for="nombre">Nombres</label>
+                <input type="text" id="nombre" name="nombre" minlength="2" maxlength="64" size="32" required>
+            </div>
+            <div class="itemform">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" minlength="10" maxlength="128" size="32" required>
+            </div>
+            <div class="itemform">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
+            </div>
+            <div class="itemform">
+                <input type="submit" name="boton" value="CONTACTAR">
+                <footer>
+                    <a href class="copyright"><h2> Copyright 2024</h2></a>
+                </footer>
+            </div>
+        </form>
+        <h4>.</h4>
+    </section>
+    <!--FIN Formulario-->
+</body>
+</html>
